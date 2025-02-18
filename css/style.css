@@ -1,0 +1,655 @@
+section{
+    padding-block: 100px;
+}
+.navbar-shadow{
+  
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.1);
+  
+  
+}
+.mainword{
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #1c1c1c !important;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar .nav-link {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+.navbar .nav-link::after {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 3px;
+  background-color: #1C1C1C;
+  position: absolute;
+  bottom: 0;
+  left: 9px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.navbar ul li{
+  font-size: 14px;
+}
+.navbar .nav-link.active::after {
+  transform: scaleX(1); 
+}
+/* ////////////////////////////////////////////// */
+header {
+    background-image: linear-gradient(#00000099, #00000099), url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .social-icons a {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+header h2 {
+    font-size: 3.125rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+header h1{
+    font-size: 4.4rem;
+}
+header h1::after{
+    content: "|";
+  font-weight:400;
+  animation-name: typing;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-delay: 0;
+}
+/* Larry Daniels Developer Designe */
+@keyframes typing {
+    1.5% {
+      content: "|";
+    }
+    3% {
+      content: "D|";
+    }
+    4.5% {
+      content: "De|";
+    }
+    6% {
+      content: "Dev|";
+    }
+    7.5% {
+      content: "Deve|";
+    }
+    9% {
+      content: "Devel| ";
+    }
+    10.5% {
+      content: "Develo| ";
+    }
+    12% {
+      content: "Develope| ";
+    }
+    13.5% {
+      content: "Developer| ";
+    }
+    15% {
+      content: "Developer| ";
+    }
+    16.5% {
+      content: "Develope| ";
+    }
+    18% {
+      content: "Develop| ";
+    }
+    19.5% {
+      content: "Develo| ";
+    }
+    21% {
+      content: "Devel| ";
+    }
+    22.5% {
+      content: "Deve| ";
+    }
+    24% {
+      content: "Dev| ";
+    }
+    25.5% {
+      content: "De| ";
+    }
+    27% {
+      content: "D| ";
+    }
+    28.5% {
+      content: "| ";
+    }
+    30% {
+      content: "D| ";
+    }
+    31.5% {
+      content: "De| ";
+    }
+    33% {
+      content: "Des| ";
+    }
+    34.5% {
+      content: "Desi| ";
+    }
+    36% {
+      content: "Desig| ";
+    }
+    37.5% {
+      content: "Design| ";
+    }
+    39% {
+      content: "Designe| ";
+    }
+    40.5% {
+      content: "Designer| ";
+    }
+    42% {
+      content: "Designer|";
+    }
+    43.5% {
+      content: "Designer| ";
+    }
+    45% {
+      content: "Designer| ";
+    }
+    46.5% {
+      content: "Designe| ";
+    }
+    48% {
+      content: "Design| ";
+    }
+    49.5% {
+      content: "Desig| ";
+    }
+    51% {
+      content: "Desig| ";
+    }
+    52.5% {
+        content: "Desi| ";
+      }
+      54% {
+        content: "Des| ";
+      }
+      55.5% {
+        content: "De| ";
+      }
+      57% {
+        content: "D| ";
+      }
+      58.5% {
+        content: "| ";
+      }
+      60% {
+        content: "L| ";
+      }
+      61.5% {
+        content: "La| ";
+      }
+      63% {
+        content: "Lar| ";
+      }
+      64.5% {
+        content: "Larr| ";
+      }
+      66% {
+        content: "Larry| ";
+      }
+      67.5% {
+        content: "Larry | ";
+      }
+      69% {
+        content: "Larry D| ";
+      }
+      70.5% {
+        content: "Larry Da| ";
+      }
+      72% {
+        content: "Larry Dan| ";
+      }
+      73.5% {
+        content: "Larry Dani| ";
+      }
+      75% {
+        content: "Larry Danie| ";
+      }
+      76.5% {
+        content: "Larry Daniel| ";
+      }
+      78% {
+        content: "Larry Daniels| ";
+      }
+      79.5% {
+        content: "Larry Daniels| ";
+      }
+      81% {
+        content: "Larry Daniel| ";
+      }
+      82.5% {
+        content: "Larry Danie| ";
+      }
+      84% {
+        content: "Larry Dani| ";
+      }
+      85.5% {
+        content: "Larry Dan| ";
+      }
+      87% {
+        content: "Larry Da| ";
+      }
+      88.5% {
+        content: "Larry D| ";
+      }
+      90% {
+        content: "Larry | ";
+      }
+      91.5% {
+        content: "Larry| ";
+      }
+      93% {
+        content: "Larr| ";
+      }
+      94.5% {
+        content: "Lar| ";
+      }
+      96% {
+        content: "La| ";
+      }
+      97.5% {
+        content: "L| ";
+      }
+      99% {
+        content: "| ";
+      }
+      100% {
+        content: "| ";
+      }
+      
+}
+/* /////////////////////////////////////////////////// */
+.about .imagebk::after{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.about .about-text2{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+.about h2{
+font-family: "Montserrat", sans-serif;
+color: #343434;
+}
+.about .about-text1{
+color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.custom-progress {
+  height: 25px; 
+}
+
+.custom-progress .progress-bar {
+  height: 100%;
+}
+.bar-bg{
+  background: #F7F7F7;
+  box-shadow: inset 4px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.btn1 {
+  transition: all 0.3s ease-in-out;
+  background-color: #1C1C1C;
+  color: white;
+  border: 1px solid #1C1C1C;
+}
+.btn2 {
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  color: #1C1C1C;
+  border: 1px solid #1C1C1C;
+}
+
+
+.btn1:hover {
+  color: #1C1C1C;
+  background-color: white;
+  border-color: #1C1C1C;
+}
+.btn2:hover {
+  color: white;
+  background-color: #1C1C1C;
+}
+/* //////////////////////////////////////////////////////////////// */
+.services{
+  background-color:#F7F7F7 ;
+  font-family: "Montserrat", sans-serif;
+}
+.sec-heading h2{
+   font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+    font-family: "Montserrat", sans-serif;
+    color: #343434;
+}
+.sec-heading h2::after{
+  content: "";
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.services .container .item {
+  transition: all 0.3s;
+}
+.services .container .item:hover span{
+  background-color: #1C1C1C;
+  color: white;
+}
+.services span{
+  transition: all 0.3s;
+  background-color: #f4f4f4;
+}
+.services .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+} 
+
+.services .icon i {
+  font-size: 1.5rem;
+}
+/* //////////////////////////////////////////////////////// */
+.Portfolio .box img{
+  transition: all 0.3s;
+}
+
+
+.Portfolio .box:hover .layer{
+  opacity: 1;
+  top: 5px;
+
+}
+
+.Portfolio .box .layer{
+  position: absolute;
+  top: 20px;                
+  left: 5px;               
+  right: 5px;              
+  bottom: 5px; 
+  background: rgba(255, 255, 255, 0.95);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.pic-links{
+  display: flex;
+  gap: 4px;  
+  justify-content: center;
+}
+.Portfolio .box .pic-links a{
+  background-color: #1C1C1C;
+  border: #1C1C1C solid 1px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 12px;
+  color:#f4f4f4;
+}
+.Portfolio .box .layer .prt-text h5{
+  font-family:"Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+}
+.Portfolio .box .pic-links a:hover{
+  background-color:white;
+  color: #1C1C1C;
+
+}
+.Portfolio ul .nav-link.active{
+  background-color: white;
+  border: none;
+
+}
+.Portfolio .nav-link {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+.Portfolio .nav-link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #1C1C1C;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.Portfolio .nav-link.active::after {
+  transform: scaleX(1); 
+}
+/* //////////////////////////////////////////////// */
+.slider{
+  background-color:#F7F7F7 ;
+}
+.slider .carousel-indicators {
+  bottom: -25px;
+}
+.slider .carousel-indicators button{
+  background-color: #869791;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+}
+.slider img{
+  width: 90px;
+}
+.slider h5{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 30px 0 5px;
+}
+.slider .carousel-caption span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    font-family: "Poppins", sans-serif;
+}
+.slider .carousel-caption p{
+   word-spacing: 2px;
+   line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+    font-family: "Poppins", sans-serif;
+}
+/* //////////////////////////////////////////////// */
+.counter .item .icon{
+    font-size: 30px;
+    color: #343434;
+}
+.counter .item h3{
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #343434;
+}
+.counter .item p{
+  font-weight: 600;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 15px;
+  color: #748182;
+  font-family: "Poppins", sans-serif;
+}
+/* ///////////////////////////////////////////// */
+.our-team{
+  background-color:#F7F7F7 ;
+}
+.our-team .card-body{
+  background-color: rgba(52, 52, 52, .8);
+  padding: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom-left-radius: 5px ; 
+    border-bottom-right-radius: 5px; 
+}
+.our-team h4{
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+.our-team h5{
+  font-family: "Montserrat", sans-serif;
+}
+
+.our-team .boxpic:hover img{
+  transform: scale(1.2);
+
+}
+.our-team .card-img-top {
+  transition: transform 0.3s ease;
+}
+.our-team .layer{
+  position: absolute;
+  top: 5px;                
+  left: 5px;               
+  right: 5px;              
+  bottom: 5px; 
+  background-color: rgba(255, 255, 255, 0.95);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  transform: rotateY(180deg) scale(0.5, 0.5);
+  opacity: 0;
+}
+.our-team .layer a{
+  border: 1px solid #000;
+    color: #fff;
+    background-color: #000;
+    display: block;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.our-team .boxpic:hover .layer {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+.our-team .layer a:hover{
+  background-color: white;
+  color: #000;
+}
+/* /////////////////////////// */
+.contact-us i{
+   font-size: 25px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.contact-us h6{
+  font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.contact-us p{
+  line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+    font-family: "Poppins", sans-serif;
+
+}
+.contact-us .box:hover i{
+  background-color: black;
+  color: white;
+
+}
+.contact-us .form-control{
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+.contact-us ::placeholder {
+  color: #6c757d;
+  opacity: 0.65; 
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.contact-us .form-control:focus{
+  box-shadow: none;
+
+}
+.contact-us .bttn{
+  font-family: "Poppins", sans-serif;
+  padding: 10px 40px;
+  font-size: 13px;
+}
+.contact-us .bttn:hover{
+  background-color: white;
+  color: #000;
+}
+footer{
+    background: #1c1c1c;
+    padding: 30px;
+}
+footer p {
+   font-size: 13px;
+   word-spacing: 2px;
+   line-height: 1.6;
+   margin: 0;
+   color: #748182;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+}
