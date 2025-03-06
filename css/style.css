@@ -188,86 +188,86 @@ header h1::after{
         content: "| ";
       }
       60% {
-        content: "L| ";
+        content: "Y| ";
       }
       61.5% {
-        content: "La| ";
+        content: "Yo| ";
       }
       63% {
-        content: "Lar| ";
+        content: "You| ";
       }
       64.5% {
-        content: "Larr| ";
+        content: "Yous| ";
       }
       66% {
-        content: "Larry| ";
+        content: "Youse| ";
       }
       67.5% {
-        content: "Larry | ";
+        content: "Yousef| ";
       }
       69% {
-        content: "Larry D| ";
+        content: "Yousef | ";
       }
       70.5% {
-        content: "Larry Da| ";
+        content: "Yousef S| ";
       }
       72% {
-        content: "Larry Dan| ";
+        content: "Yousef Sa| ";
       }
       73.5% {
-        content: "Larry Dani| ";
+        content: "Yousef Sam| ";
       }
       75% {
-        content: "Larry Danie| ";
+        content: "Yousef Sami| ";
       }
       76.5% {
-        content: "Larry Daniel| ";
+        content: "Yousef Samir| ";
       }
       78% {
-        content: "Larry Daniels| ";
+        content: "Yousef Samir| ";
       }
       79.5% {
-        content: "Larry Daniels| ";
+        content: "Yousef Samir| ";
       }
       81% {
-        content: "Larry Daniel| ";
+        content: "Yousef Sami| ";
       }
       82.5% {
-        content: "Larry Danie| ";
+        content: "Yousef Sam| ";
       }
       84% {
-        content: "Larry Dani| ";
+        content: "Yousef Sa| ";
       }
       85.5% {
-        content: "Larry Dan| ";
+        content: "Yousef S| ";
       }
       87% {
-        content: "Larry Da| ";
+        content: "Yousef | ";
       }
       88.5% {
-        content: "Larry D| ";
+        content: "Yousef| ";
       }
       90% {
-        content: "Larry | ";
+        content: "Youse| ";
       }
       91.5% {
-        content: "Larry| ";
+        content: "Yous| ";
       }
       93% {
-        content: "Larr| ";
+        content: "You| ";
       }
       94.5% {
-        content: "Lar| ";
+        content: "Yo| ";
       }
       96% {
-        content: "La| ";
+        content: "Y| ";
       }
       97.5% {
-        content: "L| ";
+        content: "| ";
       }
       99% {
         content: "| ";
-      }
+      }  
       100% {
         content: "| ";
       }
@@ -336,6 +336,21 @@ color: #999;
   color: white;
   background-color: #1C1C1C;
 }
+
+
+@keyframes fillProgress {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--progress-width);
+  }
+}
+
+.progress-bar {
+  transition: width 1.5s ease-in-out;
+}
+
 /* //////////////////////////////////////////////////////////////// */
 .services{
   background-color:#F7F7F7 ;
