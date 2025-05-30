@@ -1,7 +1,7 @@
 # Portofolio
 This repository contains the Portofolio project. The project demonstrates the use of Bootstrap to create responsive and visually appealing web pages.
 
-## Live View https://yousef-s-mousa.github.io/Portofolio/
+## Live View https://yousef-s-mousa.github.io/Portfolio/
 
 ## Introduction
 
